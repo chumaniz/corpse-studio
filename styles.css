@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 70px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 19px
+}
+
+.container .navbar {
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.container .navbar ul li{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar a {
+    font-weight:bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(227, 29, 29);
+}
+
+.main {
+    padding: 100px 200px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#knight {
+    height: 390px;
+    width: 300px;
+    margin: 20px;
+}
+
+.flagtext {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.nb-text{
+    padding: 10px;
+    margin: 5px 20px;
+    /* text-align: center; */
+}
+
+.nb-explain {
+    width: 50%;
+    margin-top: -100px;
+    margin-right: 365px;
+    padding: 10px;
+  
+}
+
+.explain {
+    margin-top: 1px;
+}
+
+.donate {
+    height: 20px;
+    background-color: rgb(234, 18, 18);
+    color: white;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding-bottom: 20px;
+}
+
+.donate:hover {
+    background-color: rgb(178, 174, 174);
+    border: 1px solid rgb(178, 174, 174);
+}
+
+.subheading {
+    text-align: center;
+    padding:25px;
+    background-color: black;
+    color: red;
+    margin-top: -2px ;
+    margin-bottom: 1x;
+}
+
+.selection-panel {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.selection {
+    width: 1000px;
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.manga-title {
+    margin-left: 25%;
+    width: auto;
+    color: whitesmoke;
+}
+
+.manga-title a {
+    font-weight:bold;
+    text-decoration: none;
+    color: white;
+}
+
+.manga-title a:hover {
+    color: rgb(227, 29, 29);
+}
+
+.quote {
+    height: 250px;
+    background-color: black;
+    margin-top: -20px
+}
+
+.akira {
+    text-align: center;
+    padding-top: 100px;
+    width: auto;
+    color: white;
+}
+
+.coa-main {
+    height: 250px;
+    background-color: black;
+    margin-top: -20px
+}
+
+.coa {
+    text-align: center;
+    padding-top: 100px;
+    width: auto;
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
